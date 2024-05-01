@@ -19,7 +19,8 @@ nums.filter( function(num) {
 })
 
 // map method
-[0,10,20,30,40,50].map( function(num) {
+const numArr = [0,10,20,30,40,50]
+numArr.map( function(num) {
     return num / 10
 })
 
